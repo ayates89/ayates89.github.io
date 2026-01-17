@@ -1,0 +1,27 @@
+.container {
+            display: flex;
+            flex-direction: column;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #eff9f2;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align:center;
+            font-family: Arial, Helvetica, sans-serif
+}
+
+
+body {
+  background: url('../images/flowers.jpg') no-repeat center center fixed;
+    background-size: cover;
+   
+}
+   
+
+@media (min-width: 320px) {
+    main {
+        display: flex;
+
+    }
+}
